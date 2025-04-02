@@ -11,4 +11,4 @@ def main():
     print(f"Wylosowana nazwa/rzecz odwrócona to: {draw_things[random_num][::-1]}")
 main()
 
-print("branch lol")
+print("main")
