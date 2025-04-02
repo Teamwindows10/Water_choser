@@ -6,5 +6,7 @@ def main():
     draw_range = int(draw_range)
     for i in range(0, draw_range):
         draw_things.append(input("Podaj losowane nazwy/rzeczy: "))
-    print(f"Wylosowana nazwa/rzecz to: {draw_things[random.randint(0,draw_range-1)]}")
+    random_num = random.randint(0,draw_range-1)
+    print(f"Wylosowana nazwa/rzecz to: {draw_things[random_num]}")
+    print(f"Wylosowana nazwa/rzecz odwrócona to: {draw_things[random_num][::-1]}")
 main()
