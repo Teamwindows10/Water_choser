@@ -10,3 +10,5 @@ def main():
     print(f"Wylosowana nazwa/rzecz to: {draw_things[random_num]}")
     print(f"Wylosowana nazwa/rzecz odwrócona to: {draw_things[random_num][::-1]}")
 main()
+
+print("f_wheel")
